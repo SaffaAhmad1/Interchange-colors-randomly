@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-color: green;
+}
+nav{
+    background-color: white;
+    border-top: 1.5px solid red;
+}
+nav ul{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    list-style-type: none;
+}
+nav ul li{
+    margin: 15px;
+    font-size: 20px;
+    color: deepskyblue;
+}
+.color{
+    color: black;
+}
+section{
+    text-align: center;
+    margin-top: 300px;
+}
+button{
+    
+    padding: 10px;
+    margin: 10px;
+    border-radius: 4px;
+    font-size: 20px;
+    border: 2px solid black;
+    color: black;
+    background-color:green;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+button:hover {
+    background-color: black;
+    color: white;
+  }
